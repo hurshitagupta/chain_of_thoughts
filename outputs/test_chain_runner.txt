@@ -1,0 +1,17 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.13, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\Hurshita Gupta\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Hurshita Gupta\OneDrive\Desktop\chain_of_thoughts
+configfile: pyproject.toml
+plugins: anyio-4.15.1
+collecting ... collected 7 items
+
+tests/test_chain_runner.py::test_correct_chain PASSED                    [ 14%]
+tests/test_chain_runner.py::test_trace_structure PASSED                  [ 28%]
+tests/test_chain_runner.py::test_empty_question PASSED                   [ 42%]
+tests/test_chain_runner.py::test_empty_steps PASSED                      [ 57%]
+tests/test_chain_runner.py::test_step_limit PASSED                       [ 71%]
+tests/test_chain_runner.py::test_invalid_claim PASSED                    [ 85%]
+tests/test_chain_runner.py::test_unsafe_expression PASSED                [100%]
+
+============================== 7 passed in 0.04s ==============================
