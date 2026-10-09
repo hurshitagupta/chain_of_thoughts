@@ -31,13 +31,13 @@ chain_of_thought/
 │   └── test_three_questions.py
 │
 ├── outputs/
-│   ├── safe_evaluator_output.txt
+│   ├── safe_evaluator.txt
 │   ├── test_safe_evaluator.txt
-│   ├── chain_runner_output.txt
+│   ├── chain_runner.txt
 │   ├── test_chain_runner.txt
-│   ├── wrong_step_output.txt
+│   ├── wrong_step.txt
 │   ├── test_wrong_step.txt
-│   ├── three_questions_output.txt
+│   ├── three_questions.txt
 │   ├── test_three_questions.txt
 │
 ├── requirements.txt
