@@ -1,0 +1,16 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.13, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\Hurshita Gupta\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Hurshita Gupta\OneDrive\Desktop\chain_of_thoughts
+configfile: pyproject.toml
+plugins: anyio-4.15.1
+collecting ... collected 6 items
+
+tests/test_three_questions.py::test_shopping_question PASSED             [ 16%]
+tests/test_three_questions.py::test_travel_question PASSED               [ 33%]
+tests/test_three_questions.py::test_salary_question PASSED               [ 50%]
+tests/test_three_questions.py::test_all_steps_verified PASSED            [ 66%]
+tests/test_three_questions.py::test_summary_table PASSED                 [ 83%]
+tests/test_three_questions.py::test_wrong_claim_rejected PASSED          [100%]
+
+============================== 6 passed in 0.19s ==============================

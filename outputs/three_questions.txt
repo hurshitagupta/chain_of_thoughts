@@ -1,0 +1,30 @@
+Question: 3 books at Rs.150 each and 5 pens at Rs.20 each, with a Rs.50 discount. Find the total.
+Verification Trace:
+{'n': 1, 'thought': 'Calculate book cost', 'value': 450, 'verified': True}
+{'n': 2, 'thought': 'Calculate pen cost', 'value': 100, 'verified': True}
+{'n': 3, 'thought': 'Add total cost', 'value': 550, 'verified': True}
+{'n': 4, 'thought': 'Apply discount', 'value': 500, 'verified': True}
+Answer: 500
+Error: None
+
+Question: A car travels at 60 km/h for 3 hours. For a 240 km journey, how many hours remain at the same speed?
+Verification Trace:
+{'n': 1, 'thought': 'Calculate distance', 'value': 180, 'verified': True}
+{'n': 2, 'thought': 'Calculate remaining distance', 'value': 60, 'verified': True}
+{'n': 3, 'thought': 'Calculate remaining time', 'value': 1.0, 'verified': True}
+Answer: 1.0
+Error: None
+
+Question: An employee earns Rs.500 per day, works 5 days per week for 4 weeks, and receives a Rs.2000 bonus. Find the total salary.
+Verification Trace:
+{'n': 1, 'thought': 'Calculate weekly salary', 'value': 2500, 'verified': True}
+{'n': 2, 'thought': 'Calculate monthly salary', 'value': 10000, 'verified': True}
+{'n': 3, 'thought': 'Add bonus', 'value': 12000, 'verified': True}
+Answer: 12000
+Error: None
+
+SUMMARY TABLE
+Question        Answer     Steps
+Question 1      500        4    
+Question 2      1.0        3    
+Question 3      12000      3 
