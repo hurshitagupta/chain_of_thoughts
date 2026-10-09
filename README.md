@@ -187,7 +187,7 @@ Explains:
 - Why verifying intermediate steps is safer than trusting only the final answer.
 - How the system detects incorrect calculations.
 - A realistic example of a plausible but incorrect step.
-- The benefits and limitations of arithmetic verification.
+
 
 ## Testing
 
@@ -219,36 +219,7 @@ python -m pytest tests/ -q
 | Determinism | Uses predefined mock reasoners |
 | Secret hygiene | No hardcoded API keys or credentials |
 
-The safe evaluator accepts only supported arithmetic expressions. Model-generated expressions are never directly executed as Python code.
 
-## Measurements and Evidence
 
-The three successful word problems contain:
 
-- **3** completed reasoning chains.
-- **10** verified arithmetic steps.
-- **0** failed arithmetic claims in successful runs.
 
-The intentionally incorrect chain demonstrates detection of a failed calculation at Step 3.
-
-Execution outputs and pytest results are stored in the `outputs/` folder.
-
-To regenerate the final test evidence:
-
-```bash
-python -m pytest tests/ -q > outputs/final_pytest_output.txt
-```
-
-## Limitations
-
-The system verifies arithmetic correctness but does not fully verify whether the reasoning steps correctly represent the original word problem.
-
-The mock reasoners return predefined steps rather than dynamically generating reasoning from arbitrary questions.
-
-The evaluator is designed for simple arithmetic expressions, not unrestricted mathematical computation.
-
-## Conclusion
-
-This project demonstrates how structured reasoning steps can be safely evaluated, verified, and traced.
-
-By checking intermediate calculations and stopping when an error occurs, the system improves the reliability and transparency of arithmetic reasoning workflows.
