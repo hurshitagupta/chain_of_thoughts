@@ -1,0 +1,6 @@
+4 * 12 = 48
+48 + 75 = 123
+123 - 20 = 103
+__import__('os') -> Rejected: Unsupported expression
+open('x') -> Rejected: Unsupported expression
+10 / 0 -> Rejected: Division by zero

@@ -1,0 +1,15 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.13, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\Hurshita Gupta\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Hurshita Gupta\OneDrive\Desktop\chain_of_thoughts
+configfile: pyproject.toml
+plugins: anyio-4.15.1
+collecting ... collected 5 items
+
+tests/test_safe_evaluator.py::test_valid_expressions PASSED              [ 20%]
+tests/test_safe_evaluator.py::test_unsafe_expressions PASSED             [ 40%]
+tests/test_safe_evaluator.py::test_invalid_inputs PASSED                 [ 60%]
+tests/test_safe_evaluator.py::test_length_limit PASSED                   [ 80%]
+tests/test_safe_evaluator.py::test_depth_limit PASSED                    [100%]
+
+============================== 5 passed in 0.04s ==============================
